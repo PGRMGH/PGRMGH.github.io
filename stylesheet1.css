@@ -1,8 +1,9 @@
-
+/* これで囲むとコメントになる */
 
 .header {
   background-color: #bdf7f1;
   height: 32px;
+
 
 
 }
@@ -11,17 +12,19 @@
   font-size: 19px;
   float: left;
   padding: 2px 10px 2px 10px;
+
+
 }
 
 .header-list li {
   list-style: none;
   float: right;
-  padding: 7px 20px 4px 20px;
+  padding: 7px 10px 2px 10px;
 }
 
 .main {
   background-color: lightyellow;
-  height: 600px;
+  height: 1600px;
 }
 
 span {
@@ -35,13 +38,13 @@ span {
 
 .footer-logo {
   float: left;
-  font-size: 18px;
-  padding: 3px 10px;
+
+  padding: 5px 10px 2px 10px;
 }
 
 .footer-list {
   float: right;
-  padding: 6px 10px;
+  padding: 5px 10px 2px 10px;
 }
 
 
@@ -70,10 +73,11 @@ span {
 
 .contents h4 {
   border-bottom: 1px solid #333;
+  padding-bottom: 10px;
 }
 
 .contents {
-  height: 400px;
+  height: 800px;
 }
 
 .contents-item {
@@ -83,4 +87,46 @@ span {
 
 .contents-item p {
   text-align: center;
+}
+
+
+
+
+
+.content-add1 {
+  padding-top: 60px;
+  float: left;
+}
+
+.content-add1 p {
+  text-align: center;
+}
+
+
+
+.contents-add2 {
+  padding-top: 60px;
+  padding-left: 60px;
+  float: left;
+}
+
+
+
+.contact-form {
+margin-top: 600px;
+
+}
+
+
+.img1 {
+  border-radius: 50% 50% 0 50%
+}
+.img2 {
+  border-radius: 50% 50% 50% 0
+}
+.img3 {
+  border-radius: 50% 0 50% 50%
+}
+.img4 {
+  border-radius: 0 50% 50% 50%
 }
