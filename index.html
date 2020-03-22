@@ -15,12 +15,19 @@
 <!-- mainの部分は「copy-container」「contents」「contact-form」の3つの要素で構成されている-->
 <!-- 文中の一部にCSSを適用させたい場合は、<span>要素で囲む -->
 <!-- 要素にボーダー（枠線）をつけるには、borderプロパティを用いる。枠線の太さ、種類、色を指定して使用する -->
+<!-- 入力欄：<input>要素は１行のテキスト入力を受け取るための要素 -->
+<!-- 入力欄：<textarea></textarea>要素は複数行のテキスト入力を受け取るための要素 -->
+<!-- 送信ボタン：<input>要素にはtype属性を指定することができ、type属性にsubmitを指定すると入力欄ではなく送信ボタンになる -->
+<!-- <input>のtype属性の後にvalue="A"とするとそのボタンにAと表示される -->
+<!-- CSSで複数のセレクタをコンマで区切ると、複数のセレクタに同じCSSを適用できる -->
 <!-- -->
 <!-- -->
 <!-- -->
 <!-- -->
 <!-- -->
-<!-- -->
+
+
+
 
 
 
@@ -117,7 +124,18 @@
 
       </div>
 
-      <div class="contact-form"></div>
+      <div class="contact-form">
+        <h4 class="section-title">【お問い合わせ】</h4>
+          <p>メールアドレス（必須）</p>
+          <input>
+
+          <p>お問い合わせ内容（必須）</p>
+          <textarea></textarea>
+
+          <p>※必須項目は必ずご入力ください</p>
+          <input class="contact-submit" type="submit" value="送信">
+
+      </div>
 
 
 
@@ -135,7 +153,7 @@
 
     <div class="footer">
       <div class="footer-logo">KGRM's room</div>
-      <div class="footer-list">最終更新日 2020.3.18</div>
+      <div class="footer-list">最終更新日 2020.3.22</div>
 
       <p></p>
     </div>
@@ -150,4 +168,3 @@
   </body>
 
 </html>
-
